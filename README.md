@@ -13,4 +13,7 @@ Construir seu Primeiro Portfólio Front-end do Zero.
 Crie seu próprio portfólio front-end, atentando-se para que seja autêntico, visualmente atraente e responsivo. Sinta-se livre para utilizar as tecnologias que desejar e expressar sua personalidade e estilo através do design e dos elementos interativos do seu portfólio. Após concluir, você pode hospedá-lo em uma plataforma de sua escolha, como GitHub Pages, Netlify, Vercel, etc.
 
 ## Ainda está em desenvolvimento e de ajuste, mas já subi na Vercel para ter uma base de como está ficando...
-[WebSite](https://site-mauricio-campos.vercel.app/)
+
+| Projeto | Descrição | Branch |
+|--------|-----------|--------|
+| Projeto | Criando uma LandingPage - HTML5, CSS3, JavaScript, Figma | [`main`](https://github.com/mauriciocampos1234/Dio_Hi_Happy/tree/Desafio_01) 
