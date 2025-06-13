@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maurício Campos | Portfolio </title>
+  <meta name="description" content="Portfólio da desenvolvedor Full Stack para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Completas em</b> Desenvolvimento Full Stack</h1>
+      <p style="text-align: center;">Mauricio Campos, Santa Branca-SP, Desenvolvedor Full Stack.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/mauriciocampos1234" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/mauricio-campos-4a666b317/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      <iframe src="./assets/video-apresentacao/Video de apresentacao.mp4" title="video player de apresentação" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="https://static.thenounproject.com/png/487779-200.png" alt="Logo Frontend" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="https://png.pngtree.com/png-vector/20230219/ourmid/pngtree-backend-vector-icon-design-illustration-png-image_6604233.png" alt="Logo Backend" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="https://images.vexels.com/media/users/3/135781/isolated/preview/c409d409708a06c921ab88ed9e43bc9e-icone-de-circulo-de-banco-de-dados.png?w=360" alt="Logo Banco de dados" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="https://www.svgrepo.com/show/394174/github.svg" alt="Logo Github" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      
+      <div class="projects__card"><!-- Começo projects__card Disney Plus-->
+        <img class="card__cover" src="assets/images/projects/s-1.png" alt="Site Disney Plus">
+        <div class="card__body"><!-- Começo card__body Disney Plus-->
+          <h3 class="card__title">Clone Disney Plus</h3>
+          <p class="card__description">Aqui mostra somente o Front-end, Back-end (Modo Privado)</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de favoritos;</li>
+            <li class="card__item">Carrinho de compras;</li>
+            <li class="card__item">Filtragem por preço e categoria.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://static.thenounproject.com/png/487779-200.png" alt="Logo Frontend" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://png.pngtree.com/png-vector/20230219/ourmid/pngtree-backend-vector-icon-design-illustration-png-image_6604233.png" alt="Logo Backend" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://images.vexels.com/media/users/3/135781/isolated/preview/c409d409708a06c921ab88ed9e43bc9e-icone-de-circulo-de-banco-de-dados.png?w=360" alt="Logo Banco de dados" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://www.svgrepo.com/show/394174/github.svg" alt="Logo Github" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+          </ul>
+            <div class="card__buttons"><!--Começo card__buttons Disney Plus-->
+            <a href="https://clone-disneyplus-xeem.vercel.app/" target="_blank">
+              <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+              </button>
+            </a>
+            <a href="https://github.com/mauriciocampos1234/clone_disneyplus" target="_blank">
+              <button class="btn ">
+              <span>Repositório</span>
+              </button>
+            </a>
+            </div><!--Fim card__buttons Disney Plus-->
+        
+          </div><!-- Fim card__body Disney Plus-->
+      </div><!-- Fim projects__card Disney Plus-->
+      
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/s-2.png" alt="Projeto Hotel">
+        <div class="card__body">
+          <h3 class="card__title">Projeto Hotel</h3>
+          <p class="card__description">Aqui mostra somente o Front-end, Back-end (Modo Privado)</p>
+          <ul class="card__list">
+            <li class="card__item">Postagens relacionadas e em destaque;</li>
+            <li class="card__item"><code>Input de dados para entrada e saída;</code></li>
+            <li class="card__item">Filtragem por tags e categorias.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://static.thenounproject.com/png/487779-200.png" alt="Logo Frontend" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://png.pngtree.com/png-vector/20230219/ourmid/pngtree-backend-vector-icon-design-illustration-png-image_6604233.png" alt="Logo Backend" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://images.vexels.com/media/users/3/135781/isolated/preview/c409d409708a06c921ab88ed9e43bc9e-icone-de-circulo-de-banco-de-dados.png?w=360" alt="Logo Banco de dados" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://www.svgrepo.com/show/394174/github.svg" alt="Logo Github" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+          </ul>
+          <div class="card__buttons"><!--Começo card__buttons Hotel-->
+            <a href="https://projeto-mauricio-hoteis.vercel.app/" target="_blank">
+              <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+              </button>
+            </a>
+            <a href="https://github.com/mauriciocampos1234/PROJETO_RESERVAS_HOTEL" target="_blank">
+              <button class="btn ">
+              <span>Repositório</span>
+              </button>
+            </a>  
+          </div><!-- Fim card__buttons Hotel-->
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/s-3.png" alt="Capa FastFood">
+        <div class="card__body">
+          <h3 class="card__title">FOOD Theme</h3>
+          <p class="card__description">Aqui mostra somente o Front-end, Back-end (Modo Privado)</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de favoritos;</li>
+            <li class="card__item">Carrinho de compras;</li>
+            <li class="card__item">Serviço de entrega delivery.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://static.thenounproject.com/png/487779-200.png" alt="Logo Frontend" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://png.pngtree.com/png-vector/20230219/ourmid/pngtree-backend-vector-icon-design-illustration-png-image_6604233.png" alt="Logo Backend" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://images.vexels.com/media/users/3/135781/isolated/preview/c409d409708a06c921ab88ed9e43bc9e-icone-de-circulo-de-banco-de-dados.png?w=360" alt="Logo Banco de dados" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://www.svgrepo.com/show/394174/github.svg" alt="Logo Github" style="filter: drop-shadow(0 0 4px #222) brightness(0.2) invert(1); background: #fff; border-radius: 8px; padding: 4px;">
+            </li>
+          </ul>
+          <div class="card__buttons"><!--Começo card__buttons FOOD-->
+            <a href="https://food-theme-mauricio-campos-mauricio-pereira-campos-projects.vercel.app/" target="_blank">
+              <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+              </button>
+            </a>
+            <a href="https://github.com/mauriciocampos1234/landing-page-food-theme-main" target="_blank">
+              <button class="btn ">
+              <span>Repositório</span>
+              </button>
+            </a>  
+          </div><!-- Fim card__buttons FOOD-->
+        </div>
+      </div>
+      <a href="https://github.com/mauriciocampos1234" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div><!-- FIM projects__container Projetos-->
+  
+  </section><!-- Fim Section Projetos-->
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.jpg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Maurício Campos. Sou branco, tenho cabelos e olhos escuros, 1,79m de altura, peso aproximadamente 92 Kilos e 47 anos. 
+          Sou natural de Santa Branca-SP, onde resido atualmente. Sou casado há 14 anos e tenho um filho de 25 anos o qual formei em Engenharia Mecânica. 
+          Estou cursando o quarto semestre de Desenvolvimento de Software com Metodologia Ágil na Universidade Estácio de Sá.
+          Tenho interesse em aprender novas tecnologias e aprimorar minhas habilidades em programação.
+          Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.
+          Tenho experiência em desenvolvimento de software, com foco em Front-end e Back-end.
+          Estou sempre disposto a aprender e me adaptar às novas demandas do mercado de trabalho.
+          Estou em busca de oportunidades de estágio para aplicar meus conhecimentos e adquirir experiência prática.
+          Estou aberto a novas conexões e colaborações, e acredito que a troca de experiências é fundamental para o meu crescimento profissional.
+          Estou sempre em busca de novos desafios e oportunidades para crescer profissionalmente.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Básico | Espanhol: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/mauricio-campos-4a666b317/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+            <a href="assets/curriculo-Maurício Pereira Campos.pdf" download>
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+            </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Desenvolvimento de Software com Metodologia Ágil</h4>
+          <span>Jan 2024 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Estácio de Sá</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Estudando - Todas as Linguagens de Programação Existentes</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Estágio</h4>
+          <span>Por estar cursando o quarto Semestre na Faculdade, busco estágio com foco principal: Entender, conhecer, aprender "Projetos do mundo real".
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Como é uma equipe de trabalho de TI;</li>
+            <li class="about__item">Como são os sistemas da Empresa;</li>
+            <li class="about__item">Foco em crescimento na empresa com 100% de mim.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item">
+            <button class="accordion__header start">
+              <span>Desenvolvimento Front-end</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Todas as tecnologias e ferramentas necessárias para o desenvolvimento de aplicações web.
+              </p>
+              <p>
+                <ul>
+                  <li>HTML (HyperText Markup Language): Define a estrutura do conteúdo da página.</li> 
+                  <li>CSS (Cascading Style Sheets): Estiliza o conteúdo, controlando layout, cores e fontes.</li> 
+                  <li>React: Biblioteca JavaScript para criar interfaces de usuário.</li> 
+                  <li>Vue.js: Framework JavaScript progressivo para criar interfaces.</li> 
+                  <li>Angular: Framework completo para desenvolvimento front-end.</li> 
+                  <li>Svelte: Framework mais recente, focado em otimização e performance.</li> 
+                  <li>Bootstrap: Framework CSS para design responsivo e componentes pré-construídos.</li> 
+                  <li>Sass/Less: Extensões de CSS para facilitar a escrita e organização de estilos.</li> 
+                  <li>TypeScript: Superset de JavaScript que adiciona tipagem estática.</li> 
+                  <li>npm: Gerenciador de pacotes padrão para JavaScript.</li> 
+                  <li>Yarn: Alternativa ao npm com foco em performance e segurança.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Desenvolvimento Back-end</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Todas as tecnologias e ferramentas necessárias para o desenvolvimento de aplicações back-end.
+              </p>
+              <p>
+                <ul>
+                  <li>JavaScript (Node.js): Para aplicações server-side com alta performance.</li> 
+                  <li>Python: Usado com frameworks como Django e Flask.</li> 
+                  <li>Java: Com frameworks como Spring Boot.</li> 
+                  <li>Ruby: Geralmente utilizado com Ruby on Rails.</li> 
+                  <li>PHP: Popular com CMS como WordPress e frameworks como Laravel.</li> 
+                  <li>C#: Usado em aplicações .NET.</li> 
+                  <li>Go (Golang): Ideal para aplicações de alta performance.</li> 
+                  <li>Rust: Focado em segurança e eficiência.</li> 
+                  <li>Kotlin: Frequentemente usado em desenvolvimento server-side junto com Java.</li> 
+                  <li>Express.js (Node.js): Minimalista para criar APIs e servidores.</li> 
+                  <li>Django (Python): Framework completo com soluções prontas.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Git GitHub (Versionamento de código)</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Todas as tecnologias e ferramentas necessárias para o versionamento de código.
+              </p>
+              <p>
+                <ul>
+                  <li>Git: Sistema de controle de versão distribuído, no qual GitHub é baseado.</li> 
+                  <li>Recursos Específicos do GitHub.</li> 
+                  <li>Ferramenta de integração contínua (CI) e entrega contínua (CD).</li> 
+                  <li>Permite automatizar workflows, como testes, builds e deploys.</li> 
+                  <li>Baseada em YAML para configuração.</li> 
+                  <li>Para hospedagem de sites estáticos diretamente a partir de um repositório GitHub.</li> 
+                  <li>Suporta tecnologias como HTML, CSS, JavaScript, e geradores estáticos como Jekyll.</li> 
+                  <li>Ferramenta de autocompletar baseada em inteligência artificial, integrada ao Visual Studio Code e outros editores.</li> 
+                  <li>Repositório para armazenar pacotes como npm, Maven, NuGet, e Docker Images. </li> 
+                  <li>GitHub pode ser usado com quase todas as linguagens e tecnologias.</li> 
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="certificados" class="certificates">
+    <h2>Certificados</h2>
+    <div class="carousel">
+      <button class="carousel__btn carousel__btn--prev" aria-label="Anterior">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <!-- Substitua os src das imagens abaixo pelos caminhos dos seus certificados -->
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-7.png" alt="Certificado 1">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-8.png" alt="Certificado 2">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-9.png" alt="Certificado 3">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-10.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-11.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-12.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-13.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-14.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-15.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-16.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-17.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-18.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-19.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-20.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-21.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-22.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-10.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-10.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-10.png" alt="Certificado 4">
+          </li>
+          <li class="carousel__slide">
+            <img src="assets/certificados/c-10.png" alt="Certificado 4">
+          </li>
+          <!-- Adicione mais slides conforme necessário -->
+        </ul>
+      </div>
+      <button class="carousel__btn carousel__btn--next" aria-label="Próximo">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </section>
+  <style>
+  .certificates {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 0 16px;
+  }
+  .certificates h2 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel__track-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+  }
+  .carousel__track {
+    display: flex;
+    transition: transform 0.4s cubic-bezier(.77,0,.18,1);
+    gap: 24px;
+    padding: 16px 0;
+  }
+  .carousel__slide {
+    min-width: 220px;
+    max-width: 320px;
+    flex: 0 0 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s, z-index 0.3s;
+    cursor: pointer;
+    border-radius: 12px;
+    background: #181818;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    position: relative;
+    z-index: 1;
+  }
+  .carousel__slide img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+    pointer-events: none;
+    user-select: none;
+  }
+  .carousel__slide.active,
+  .carousel__slide:focus,
+  .carousel__slide:active {
+    transform: scale(1.15) translateY(-10px);
+    z-index: 2;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  }
+  .carousel__btn {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: background 0.2s;
+    z-index: 3;
+  }
+  .carousel__btn:hover {
+    background: #444;
+  }
+  @media (max-width: 700px) {
+    .carousel__track-container {
+      max-width: 98vw;
+    }
+    .carousel__slide {
+      min-width: 140px;
+      max-width: 180px;
+      flex: 0 0 150px;
+    }
+    .carousel__slide img {
+      height: 90px;
+    }
+  }
+  </style>
+  <script>
+  (function() {
+    const track = document.querySelector('.carousel__track');
+    const slides = Array.from(track.children);
+    const prevBtn = document.querySelector('.carousel__btn--prev');
+    const nextBtn = document.querySelector('.carousel__btn--next');
+    let currentIndex = 0;
+
+    function updateCarousel() {
+      const slideWidth = slides[0].getBoundingClientRect().width + 24; // 24px gap
+      track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+      slides.forEach((slide, idx) => {
+        slide.classList.toggle('active', idx === currentIndex);
+      });
+    }
+
+    prevBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateCarousel();
+    });
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateCarousel();
+    });
+
+    slides.forEach((slide, idx) => {
+      slide.addEventListener('click', () => {
+        if (currentIndex === idx) {
+          // Abrir modal para ampliar o certificado
+          openModal(slide.querySelector('img').src, slide.querySelector('img').alt);
+        } else {
+          currentIndex = idx;
+          updateCarousel();
+        }
+      });
+    });
+
+    // Modal para ampliar certificado
+    function openModal(src, alt) {
+      let modal = document.getElementById('certModal');
+      if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'certModal';
+        modal.innerHTML = `
+          <div class="modal__overlay"></div>
+          <div class="modal__content">
+            <img src="" alt="">
+            <button class="modal__close" aria-label="Fechar"><i class="bi bi-x-lg"></i></button>
+          </div>
+        `;
+        document.body.appendChild(modal);
+        modal.querySelector('.modal__close').onclick = closeModal;
+        modal.querySelector('.modal__overlay').onclick = closeModal;
+      }
+      modal.querySelector('img').src = src;
+      modal.querySelector('img').alt = alt;
+      modal.style.display = 'flex';
+      setTimeout(() => modal.classList.add('show'), 10);
+    }
+    function closeModal() {
+      const modal = document.getElementById('certModal');
+      if (modal) {
+        modal.classList.remove('show');
+        setTimeout(() => { modal.style.display = 'none'; }, 200);
+      }
+    }
+    // Modal styles
+    const modalStyle = document.createElement('style');
+    modalStyle.innerHTML = `
+      #certModal {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        inset: 0;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0,0,0,0.7);
+        transition: opacity 0.2s;
+        opacity: 0;
+      }
+      #certModal.show { opacity: 1; display: flex; }
+      #certModal .modal__overlay {
+        position: absolute;
+        inset: 0;
+        background: transparent;
+      }
+      #certModal .modal__content {
+        position: relative;
+        background: #222;
+        border-radius: 12px;
+        padding: 16px;
+        max-width: 96vw;
+        max-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        z-index: 2;
+      }
+      #certModal img {
+        max-width: 90vw;
+        max-height: 75vh;
+        border-radius: 8px;
+        background: #fff;
+        object-fit: contain;
+      }
+      #certModal .modal__close {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        background: #181818;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+      }
+      @media (max-width: 700px) {
+        #certModal .modal__content {
+          padding: 4px;
+        }
+        #certModal img {
+          max-width: 98vw;
+          max-height: 60vh;
+        }
+      }
+    `;
+    document.head.appendChild(modalStyle);
+
+    // Inicializa
+    updateCarousel();
+  })();
+  </script>
+
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/mauriciocampos1234/" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="www.linkedin.com/in/mauricio-campos-4a666b317" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://wa.me/5512991020922" target="_blank">
+          <i class="menu__icon bi bi-whatsapp"></i>
+          <span>Whatsapp</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:adm@camposengenhariacomputacional.online" target="_blank">
+      <button class="btn btn--primary">
+        <span class="email" style="font-size: 15px; word-break: break-all;">adm@camposengenhariacomputacional.online</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      ©2024. Todos os direitos reservados | Maurício Campos | CNPJ: 46.029.304/0001-82 
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
