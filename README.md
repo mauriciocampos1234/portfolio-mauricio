@@ -16,4 +16,4 @@ Crie seu próprio portfólio front-end, atentando-se para que seja autêntico, v
 
 | Projeto | Descrição | Branch |
 |--------|-----------|--------|
-| Projeto | Criando uma LandingPage - HTML5, CSS3, JavaScript, Figma | [`main`](https://github.com/mauriciocampos1234/Dio_Hi_Happy/tree/Desafio_01) 
+| Projeto | Criando uma LandingPage - HTML5, CSS3, JavaScript, Figma | [`WebSite`](https://site-mauricio-campos.vercel.app/) 
