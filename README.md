@@ -1,6 +1,6 @@
 <h1>
     
-     <img align="center" width="40px" 
+     
     <span>Construindo meu Portfólio Front-end do Zero</span>
 </h1>
 
