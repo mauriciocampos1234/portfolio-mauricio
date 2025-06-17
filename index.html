@@ -8,7 +8,8 @@
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">´
+  <link rel="stylesheet" href="./assets/css/formacoes.css">
 </head>
 <body>
   <header class="header">
@@ -413,64 +414,52 @@
         <ul class="carousel__track">
           <!-- Substitua os src das imagens abaixo pelos caminhos dos seus certificados -->
           <li class="carousel__slide">
-            <img src="assets/certificados/c-7.png" alt="Certificado 1">
+            <img src="assets/certificados/c-13.png" alt="Certificado 13">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-8.png" alt="Certificado 2">
+            <img src="assets/certificados/c-8.png" alt="Certificado 8">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-9.png" alt="Certificado 3">
+            <img src="assets/certificados/c-9.png" alt="Certificado 9">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-10.png" alt="Certificado 4">
+            <img src="assets/certificados/c-10.png" alt="Certificado 10">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-11.png" alt="Certificado 4">
+            <img src="assets/certificados/c-11.png" alt="Certificado 11">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-12.png" alt="Certificado 4">
+            <img src="assets/certificados/c-12.png" alt="Certificado 12">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-13.png" alt="Certificado 4">
+            <img src="assets/certificados/c-7.png" alt="Certificado 13">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-14.png" alt="Certificado 4">
+            <img src="assets/certificados/c-14.png" alt="Certificado 14">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-15.png" alt="Certificado 4">
+            <img src="assets/certificados/c-15.png" alt="Certificado 15">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-16.png" alt="Certificado 4">
+            <img src="assets/certificados/c-16.png" alt="Certificado 16">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-17.png" alt="Certificado 4">
+            <img src="assets/certificados/c-17.png" alt="Certificado 17">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-18.png" alt="Certificado 4">
+            <img src="assets/certificados/c-18.png" alt="Certificado 18">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-19.png" alt="Certificado 4">
+            <img src="assets/certificados/c-19.png" alt="Certificado 19">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-20.png" alt="Certificado 4">
+            <img src="assets/certificados/c-20.png" alt="Certificado 20">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-21.png" alt="Certificado 4">
+            <img src="assets/certificados/c-21.png" alt="Certificado 21">
           </li>
           <li class="carousel__slide">
-            <img src="assets/certificados/c-22.png" alt="Certificado 4">
-          </li>
-          <li class="carousel__slide">
-            <img src="assets/certificados/c-10.png" alt="Certificado 4">
-          </li>
-          <li class="carousel__slide">
-            <img src="assets/certificados/c-10.png" alt="Certificado 4">
-          </li>
-          <li class="carousel__slide">
-            <img src="assets/certificados/c-10.png" alt="Certificado 4">
-          </li>
-          <li class="carousel__slide">
-            <img src="assets/certificados/c-10.png" alt="Certificado 4">
+            <img src="assets/certificados/c-22.png" alt="Certificado 22">
           </li>
           <!-- Adicione mais slides conforme necessário -->
         </ul>
@@ -480,239 +469,7 @@
       </button>
     </div>
   </section>
-  <style>
-  .certificates {
-    margin: 40px auto;
-    max-width: 900px;
-    padding: 0 16px;
-  }
-  .certificates h2 {
-    text-align: center;
-    margin-bottom: 24px;
-  }
-  .carousel {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .carousel__track-container {
-    overflow: hidden;
-    width: 100%;
-    max-width: 700px;
-  }
-  .carousel__track {
-    display: flex;
-    transition: transform 0.4s cubic-bezier(.77,0,.18,1);
-    gap: 24px;
-    padding: 16px 0;
-  }
-  .carousel__slide {
-    min-width: 220px;
-    max-width: 320px;
-    flex: 0 0 260px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s, box-shadow 0.3s, z-index 0.3s;
-    cursor: pointer;
-    border-radius: 12px;
-    background: #181818;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
-    position: relative;
-    z-index: 1;
-  }
-  .carousel__slide img {
-    width: 100%;
-    height: 180px;
-    object-fit: contain;
-    border-radius: 8px;
-    background: #fff;
-    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
-    transition: transform 0.3s;
-    pointer-events: none;
-    user-select: none;
-  }
-  .carousel__slide.active,
-  .carousel__slide:focus,
-  .carousel__slide:active {
-    transform: scale(1.15) translateY(-10px);
-    z-index: 2;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
-  }
-  .carousel__btn {
-    background: #222;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 38px;
-    height: 38px;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    margin: 0 8px;
-    transition: background 0.2s;
-    z-index: 3;
-  }
-  .carousel__btn:hover {
-    background: #444;
-  }
-  @media (max-width: 700px) {
-    .carousel__track-container {
-      max-width: 98vw;
-    }
-    .carousel__slide {
-      min-width: 140px;
-      max-width: 180px;
-      flex: 0 0 150px;
-    }
-    .carousel__slide img {
-      height: 90px;
-    }
-  }
-  </style>
-  <script>
-  (function() {
-    const track = document.querySelector('.carousel__track');
-    const slides = Array.from(track.children);
-    const prevBtn = document.querySelector('.carousel__btn--prev');
-    const nextBtn = document.querySelector('.carousel__btn--next');
-    let currentIndex = 0;
 
-    function updateCarousel() {
-      const slideWidth = slides[0].getBoundingClientRect().width + 24; // 24px gap
-      track.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-      slides.forEach((slide, idx) => {
-        slide.classList.toggle('active', idx === currentIndex);
-      });
-    }
-
-    prevBtn.addEventListener('click', () => {
-      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-      updateCarousel();
-    });
-
-    nextBtn.addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % slides.length;
-      updateCarousel();
-    });
-
-    slides.forEach((slide, idx) => {
-      slide.addEventListener('click', () => {
-        if (currentIndex === idx) {
-          // Abrir modal para ampliar o certificado
-          openModal(slide.querySelector('img').src, slide.querySelector('img').alt);
-        } else {
-          currentIndex = idx;
-          updateCarousel();
-        }
-      });
-    });
-
-    // Modal para ampliar certificado
-    function openModal(src, alt) {
-      let modal = document.getElementById('certModal');
-      if (!modal) {
-        modal = document.createElement('div');
-        modal.id = 'certModal';
-        modal.innerHTML = `
-          <div class="modal__overlay"></div>
-          <div class="modal__content">
-            <img src="" alt="">
-            <button class="modal__close" aria-label="Fechar"><i class="bi bi-x-lg"></i></button>
-          </div>
-        `;
-        document.body.appendChild(modal);
-        modal.querySelector('.modal__close').onclick = closeModal;
-        modal.querySelector('.modal__overlay').onclick = closeModal;
-      }
-      modal.querySelector('img').src = src;
-      modal.querySelector('img').alt = alt;
-      modal.style.display = 'flex';
-      setTimeout(() => modal.classList.add('show'), 10);
-    }
-    function closeModal() {
-      const modal = document.getElementById('certModal');
-      if (modal) {
-        modal.classList.remove('show');
-        setTimeout(() => { modal.style.display = 'none'; }, 200);
-      }
-    }
-    // Modal styles
-    const modalStyle = document.createElement('style');
-    modalStyle.innerHTML = `
-      #certModal {
-        display: none;
-        position: fixed;
-        z-index: 9999;
-        inset: 0;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0,0,0,0.7);
-        transition: opacity 0.2s;
-        opacity: 0;
-      }
-      #certModal.show { opacity: 1; display: flex; }
-      #certModal .modal__overlay {
-        position: absolute;
-        inset: 0;
-        background: transparent;
-      }
-      #certModal .modal__content {
-        position: relative;
-        background: #222;
-        border-radius: 12px;
-        padding: 16px;
-        max-width: 96vw;
-        max-height: 90vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-        z-index: 2;
-      }
-      #certModal img {
-        max-width: 90vw;
-        max-height: 75vh;
-        border-radius: 8px;
-        background: #fff;
-        object-fit: contain;
-      }
-      #certModal .modal__close {
-        position: absolute;
-        top: 8px;
-        right: 8px;
-        background: #181818;
-        color: #fff;
-        border: none;
-        border-radius: 50%;
-        width: 32px;
-        height: 32px;
-        font-size: 1.2rem;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 3;
-      }
-      @media (max-width: 700px) {
-        #certModal .modal__content {
-          padding: 4px;
-        }
-        #certModal img {
-          max-width: 98vw;
-          max-height: 60vh;
-        }
-      }
-    `;
-    document.head.appendChild(modalStyle);
-
-    // Inicializa
-    updateCarousel();
-  })();
-  </script>
 
   <section id="contato" class="contact">
     <h2>Contate-me</h2>
@@ -752,5 +509,6 @@
     </p>
   </footer>
   <script src="assets/js/scripts.js"></script>
+  <script src="./assets/js/formacoes.js"></script>
 </body>
 </html>

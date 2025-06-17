@@ -1,0 +1,104 @@
+/* Seção dos Certificados */
+.certificates {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 0 16px;
+}
+
+.certificates h2 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel__track-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 700px;
+}
+
+.carousel__track {
+    display: flex;
+    transition: transform 0.4s cubic-bezier(0.77, 0, 0.18, 1);
+    gap: 24px;
+    padding: 16px 0;
+}
+
+.carousel__slide {
+    min-width: 220px;
+    max-width: 320px;
+    flex: 0 0 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s, z-index 0.3s;
+    cursor: pointer;
+    border-radius: 12px;
+    background: #181818;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    position: relative;
+    z-index: 1;
+}
+
+.carousel__slide img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+    pointer-events: none;
+    user-select: none;
+}
+
+.carousel__slide.active,
+.carousel__slide:focus,
+.carousel__slide:active {
+    transform: scale(1.15) translateY(-10px);
+    z-index: 2;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.carousel__btn {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: background 0.2s;
+    z-index: 3;
+}
+
+.carousel__btn:hover {
+    background: #444;
+}
+
+@media (max-width: 700px) {
+    .carousel__track-container {
+        max-width: 98vw;
+    }
+
+    .carousel__slide {
+        min-width: 140px;
+        max-width: 180px;
+        flex: 0 0 150px;
+    }
+
+    .carousel__slide img {
+        height: 90px;
+    }
+}
