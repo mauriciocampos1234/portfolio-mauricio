@@ -524,7 +524,6 @@ footer p {
 /* Responsividade */
 @media (min-width: 768px) {
   .header {
-    
     border-bottom: 1px solid var(--primary-border-color);
     padding: 1rem 6rem;
     background: var(--primary-bg-color);
