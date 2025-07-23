@@ -29,3 +29,37 @@ menuLinks.forEach(item => {
     item.classList.add("active");
   })
 })
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll("section.projects");
+
+  // Inicialmente, ocultar a segunda e terceira seções
+  sections.forEach((section, index) => {
+    if (index > 0) {
+      section.style.display = "none";
+      section.style.opacity = "0";
+      section.style.transition = "opacity 2s ease";
+    }
+  });
+
+  // Adicionar eventos de clique aos botões com IDs específicos
+  document.getElementById("btn-section-1").addEventListener("click", (event) => {
+    event.preventDefault();
+    const nextSection = sections[1];
+    nextSection.style.display = "block";
+    setTimeout(() => {
+      nextSection.style.opacity = "1";
+    }, 10); // Pequeno atraso para ativar a transição
+    event.target.style.display = "none";
+  });
+
+  document.getElementById("btn-section-2").addEventListener("click", (event) => {
+    event.preventDefault();
+    const nextSection = sections[2];
+    nextSection.style.display = "block";
+    setTimeout(() => {
+      nextSection.style.opacity = "1";
+    }, 10); // Pequeno atraso para ativar a transição
+    event.target.style.display = "none";
+  });
+});
